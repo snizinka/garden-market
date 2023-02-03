@@ -1,0 +1,369 @@
+.iaddtocrd {
+    width: 150px;
+    height: 25px;
+    border-color: transparent;
+    border-radius: 7px;
+    text-align: center;
+}
+
+h4 {
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+input, select {
+    margin-left: 10px;
+}
+
+.sbtn {
+    width: 130px;
+    height: 25px;
+    border-color: transparent;
+    border-radius: 7px;
+    margin-left: 90px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: .7s ease;
+}
+
+.auth {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 340px;
+    border: solid orange 3px;
+    border-radius: 10px;
+}
+
+.inputy {
+    border-color: transparent;
+    border-radius: 7px;
+    width: 120px;
+    height: 25px;
+    margin-left: 10px;
+}
+
+.double {
+    width: 200px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.sinp {
+    width: 90px;
+    height: 30px;
+    border: solid orange 3px;
+    border-radius: 7px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 75px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .7s ease;
+}
+
+.user {
+    text-align: center;
+    margin: 0;
+}
+
+#err2 {
+    color: red;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.authh4 {
+    font-size: 18px;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+.ins {
+    display: grid;
+    margin-top: 22px;
+}
+
+.ac {
+    display: flex;
+    width: 250px;
+    margin: auto;
+}
+
+.prefix {
+    margin: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    color: beige;
+}
+
+.doub {
+    display: flex;
+}
+
+.signins {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.sh4 {
+    margin: 0px;
+    color: darkblue;
+}
+
+.signcard {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 340px;
+    border: solid orange 3px;
+    border-radius: 10px;
+}
+
+#err1 {
+    margin-bottom: 10px;
+    color: red;
+    text-align: center;
+    font-size: 16px;
+}
+
+#errs {
+    color: red;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.ssinp {
+    width: 130px;
+    height: 35px;
+    border: solid orange 3px;
+    border-radius: 7px;
+    margin-left: 55px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: .7s ease;
+}
+
+.ssinp:hover, .sinp:hover {
+    transition: .7s ease;
+    background: orange;
+    color: white;
+}
+
+.signoble {
+    width: 200px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.signinput {
+    border-color: transparent;
+    border-radius: 7px;
+    width: 120px;
+    height: 25px;
+    margin-left: 10px;
+    margin-bottom: 18px;
+}
+
+.ordercard {
+    width: 700px;
+    margin: auto;
+    height: 150px;
+    margin-top: 40px;
+    display: flex;
+    border: solid orange 4px;
+    border-radius: 10px;
+}
+
+.goodname {
+    font-size: 27px;
+    text-decoration: none;
+    font-weight: bold;
+    color: blue;
+}
+
+.goodcost, .categoryname {
+    margin-left: 15px;
+    color: ghostwhite;
+}
+
+.orderadd {
+    width: 79px;
+    border: solid red 3px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 20px;
+    height: 120px;
+    margin-top: 10px;
+    background: transparent;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    transition: .7s ease;
+}
+
+.orderadd:hover {
+    transition: 1.7s ease;
+    background: red;
+}
+
+.orderamount {
+    width: 50px;
+    height: 20px;
+    border-color: transparent;
+    text-align: center;
+}
+
+.amnt, .cst, .ordercost {
+    font-size: 22px;
+}
+
+.group {
+    display: flex;
+    margin-left: 10px;
+}
+
+.card {
+    width: 200px;
+    margin-right: 30px;
+    border: solid beige 3px;
+    border-radius: 10px;
+    background: beige;
+}
+
+.cindxgood {
+    margin: 0;
+    font-size: 15px;
+    font-family: sans-serif;
+    height: 31px;
+}
+
+.goodsubm {
+    transition: .7s ease;
+    width: 90px;
+    height: 25px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 3px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.container {
+    width: 892px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.imgindx, .indximag {
+    width: 180px;
+    height: 200px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.bach {
+    background-image: url("images/back.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+
+}
+
+.ucontainer {
+    text-align: center;
+}
+
+.bts {
+    color: black;
+}
+
+.uinfo {
+    width: 600px;
+    border: solid wheat 4px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 70px;
+    background: wheat;
+}
+
+.udivs {
+    width: 240px;
+    margin: auto;
+}
+
+.uli {
+    color: black;
+    font-size: 17px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.ucontainer {
+    background: wheat;
+    border-radius: 10px;
+    width: 800px;
+    margin: auto;
+}
+
+.uauth {
+    transition: .7s ease;
+    height: 40px;
+    background: rgb(245, 194, 11);
+    border-radius: 10px;
+    width: 120px;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.uauth:hover {
+    transition: .7s ease;
+    background-color: rgb(153, 255, 0);
+}
+
+.uauthbtn {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.bt {
+    text-align: center;
+}
+
+.asignupbtn {
+    text-decoration: none;
+    color: rgb(89, 0, 255);
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.main {
+    height: 100%;
+    overflow: auto;
+}
+
+.main::-webkit-scrollbar {
+    width: 10px;
+}
+      
+.main::-webkit-scrollbar-track {
+    background: black;
+    border-radius: 10px;
+}
+      
+    
+.main::-webkit-scrollbar-thumb {
+    background: orange;
+    border-radius: 10px;
+}

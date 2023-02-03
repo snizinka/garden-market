@@ -1,0 +1,222 @@
+h4 {
+    margin-top: -3px;
+}
+
+.comment {
+    margin-bottom: 10px;
+}
+
+.comment, .commentcontent {
+    display: flex;
+    width: 780px;
+    height: 30px;
+}
+
+.commentcontent {
+    margin-left: 10px;
+    border: solid black 2px;
+    border-radius: 10px;
+}
+
+.commentuser {
+    border: solid black 2px;
+    border-radius: 10px;
+    height: 30px;
+    width: 90px;
+}
+
+.card {
+    width: 700px;
+    margin: auto;
+    height: 450px;
+    margin-top: 40px;
+    display: flex;
+}
+
+.neimage, .imag {
+    height: 430px;
+    width: 270px;
+    border-radius: 10px;
+}
+
+.imag { margin-right: 30px; }
+
+.textcont {
+    margin-top: 10px;
+}
+
+.goodname {
+    font-size: 20px;
+}
+
+.goodcost, .categoryname {
+    margin-left: 15px;
+    color: ghostwhite;
+}
+
+.addtocrd {
+    width: 130px;
+    height: 40px;
+    border: solid orange 3px;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-weight: bold;
+    transition: .7s ease;
+}
+
+.numbers {
+    display: flex;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.commentfield {
+    width: 520px;
+    height: 30px;
+    border-radius: 10px;
+    border-color: transparent;
+}
+
+.commentsubmit {
+    height: 30px;
+    border-radius: 10px;
+    border-color: transparent;
+    width: 90px;
+}
+
+.commentcreation, .commentsection {
+    width: 620px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.commentsection {
+    width: 800px;
+    margin: auto;
+    height: 200px;
+    overflow-y: auto;
+}
+
+.amount {
+  width: 50px;
+  height: 20px;
+  border-color: transparent;
+  text-align: center;
+}
+
+.indecrease, .bamount, .aamount {
+  width: 50px;
+  height: 20px;
+  border-color: transparent;
+  text-align: center;
+}
+
+.aamount
+{
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
+.bamount 
+{
+  border-bottom-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+
+.edith {
+    width: 150px;
+}
+
+.editnumbers {
+    width: 150px;
+}
+
+.edittextcont {
+    display: flex;
+}
+
+.editfield {
+    margin-bottom: 10px;
+    width: 200px;
+    height: 25px;
+    border-color: transparent;
+    border-radius: 7px;
+}
+
+.editedit {
+    width: 89px;
+    height: 40px;
+    border: solid orange 2px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 65px;
+    transition: .7s ease;
+    font-weight: bold;
+}
+
+.editedit:hover {
+    transition: .7s ease;
+    background: orange;
+    color: white;
+}
+
+.editremove:hover {
+    transition: .7s ease;
+    background: red;
+    color: white;
+}
+
+.main {
+    height: 100%;
+    overflow: auto;
+}
+
+.preedit {
+    width: 130px;
+    height: 40px;
+    border: solid orange 3px;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+    transition: .7s ease;
+}
+
+.preedit:hover, .addtocrd:hover {
+    transition: .9s ease;
+    background: orange;
+    color: white;
+}
+
+
+
+.commentsection::-webkit-scrollbar {
+    width: 10px;
+}
+      
+.commentsection::-webkit-scrollbar-track {
+    background: black;
+    border-radius: 10px;
+}
+      
+    
+.commentsection::-webkit-scrollbar-thumb {
+    background: orange;
+    border-radius: 10px;
+}
+
+.commenth {
+    width: 530px;
+}
+
+.hcomm {
+    font-size: 13px;
+    padding-top: 8px;
+    padding-left: 10px;
+}
+
+.commenttimeo {
+    padding-top: 6px;
+}

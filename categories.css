@@ -1,0 +1,138 @@
+* { box-sizing: border-box; padding: 0; margin: 0;}
+
+body { background: darkseagreen; }
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  display: block;
+  text-decoration: none;
+  outline: none;
+  transition: .4s ease-in-out;
+}
+
+.topmenu {
+  backface-visibility: hidden;
+  background: rgba(255,255,255,.8);
+}
+
+.topmenu > li {
+  display: inline-block;
+  position: relative;
+}
+
+.topmenu > li > a {
+  font-family: 'Exo 2', sans-serif;
+  height: 70px;
+  line-height: 70px;
+  padding: 0 30px;
+  font-weight: bold;
+  color: #003559;
+  text-transform: uppercase;
+}
+
+.down:after {
+  margin-left: 8px;
+  font-family: FontAwesome;
+}
+
+.topmenu li a:hover { color: #E6855F; }
+
+.submenu {
+  background: white;
+  border: 2px solid #003559;
+  position: absolute;
+  left: 0;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 5;
+  width: 150px;
+  transform-origin: 0% 0%;
+  transition: .6s ease-in-out;
+}
+
+.topmenu > li:hover .submenu{
+  visibility: visible;
+  opacity: 1;
+}
+
+.submenu li a {
+  font-weight: bold;
+  color: #003559;
+  text-transform: uppercase;
+  font-size: 11px;
+  line-height: 36px;
+  padding: 0 25px;
+  font-family: 'Kurale', serif;
+}
+
+#exitance {
+  position: absolute;
+  right: 0;
+}
+
+#searchbox {
+  position: absolute;
+    right: 0;
+    margin-right: 150px;
+    margin-top: 22px;
+}
+
+.searchby {
+    width: 150px;
+    height: 25px;
+    border-radius: 7px;
+    border-color: transparent;
+}
+
+.searchbtn {
+    width: 55px;
+    border-radius: 7px;
+    border-color: transparent;
+    background: darkseagreen;
+    cursor: pointer;
+    height: 25px;
+    transition: .7s ease;
+    font-weight: bold;
+}
+
+.fcost {
+  width: 70px;
+  border-color: transparent;
+  border-radius: 7px;
+  color: black;
+  font-weight: bold;
+  visibility: hidden;
+  height: 25px;
+}
+
+.filter {
+  width: 55px;
+  border-radius: 7px;
+  border-color: transparent;
+  background: darkseagreen;
+  cursor: pointer;
+  height: 25px;
+  transition: .7s ease;
+  font-weight: bold;
+}
+
+.searchbtn:hover {
+  transition: .7s ease;
+  background: orange;
+  color: white;
+}
+
+.filter:hover {
+  transition: .7s ease;
+  background: orange;
+  color: white;
+}
